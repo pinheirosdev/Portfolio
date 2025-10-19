@@ -22,7 +22,7 @@ const AboutBox = () => {
             <div className="about__box">
                 <i className="about__icon icon-fire"></i>
                 <div>
-                    <h3 className="about__title">5+</h3>
+                    <h3 className="about__title">7+</h3>
                     <span className="about__subtitle">Projetos Concluídos</span>
 
                     <span className="services__button" onClick={handleViewMore}>

@@ -2,8 +2,9 @@ import Banner from "../../assets/fundo-banner.png";
 import Banner1 from "../../assets/portfolio-pessoal-website-banner.png";
 import Banner2 from "../../assets/horta-solidaria-banner.png"
 import Banner3 from "../../assets/previsao-de-safra-banner.png";
-
 import Banner4 from "../../assets/website-institucional-banner.png"
+import Banner5 from "../../assets/musicbot-banner.png"
+import Banner6 from "../../assets/david-silveira-banner.png"
 
 import Banner11 from "../../assets/buscador-de-cep-banner.png";
 import Banner12 from "../../assets/calculadora-imc-banner.png";
@@ -24,7 +25,7 @@ const Menu = [
     title: "Portfólio Pessoal",
     category: "Projetos",
     link: "",
-    linkGit: "https://github.com/p1nheiros/Portfolio",
+    linkGit: "https://github.com/pinheirosdev/Portfolio",
   },
   {
     id: 2,
@@ -32,7 +33,7 @@ const Menu = [
     title: "Horta Solidária",
     category: "Projetos",
     link: "https://horta-solidaria.netlify.app/",
-    linkGit: "https://github.com/p1nheiros/extensao-horta-solidaria",
+    linkGit: "https://github.com/pinheirosdev/extensao-horta-solidaria",
   },
   {
     id: 3,
@@ -40,7 +41,7 @@ const Menu = [
     title: "Previsão de Safras",
     category: "Projetos",
     link: "https://previsao-de-safras.vercel.app",
-    linkGit: "https://github.com/p1nheiros/Previsao-de-Safras",
+    linkGit: "https://github.com/pinheirosdev/Previsao-de-Safras",
   },
   {
     id: 4,
@@ -48,7 +49,23 @@ const Menu = [
     title: "Projeto Ipen",
     category: "Projetos",
     link: "",
-    linkGit: "https://github.com/p1nheiros/projetoIpen",
+    linkGit: "https://github.com/pinheirosdev/projetoIpen",
+  },
+  {
+    id: 5,
+    image: Banner5,
+    title: "Music Bot",
+    category: "Projetos",
+    link: "",
+    linkGit: "https://github.com/pinheirosdev/pinhas-musicbot",
+  },
+  {
+    id: 6,
+    image: Banner6,
+    title: "Projeto David Silveira",
+    category: "Projetos",
+    link: "",
+    linkGit: "https://github.com/pinheirosdev/davidsilveira",
   },
   {
     id: 11,
@@ -56,7 +73,7 @@ const Menu = [
     title: "Buscador de CEP",
     category: "Práticas",
     link: "https://buscador-de-cep-pinheiros.vercel.app",
-    linkGit: "https://github.com/p1nheiros/Busca-CEP",
+    linkGit: "https://github.com/pinheirosdev/Busca-CEP",
   },
   {
     id: 12,
@@ -64,7 +81,7 @@ const Menu = [
     title: "Calculadora IMC",
     category: "Práticas",
     link: "https://calculadora-imc-pinheiros.vercel.app",
-    linkGit: "https://github.com/p1nheiros/Calculadora-IMC",
+    linkGit: "https://github.com/pinheirosdev/Calculadora-IMC",
   },
   {
     id: 13,
@@ -72,7 +89,7 @@ const Menu = [
     title: "Formulário de Registro",
     category: "Práticas",
     link: "https://desafio-forms-registro.vercel.app",
-    linkGit: "https://github.com/p1nheiros/Forms-Registro",
+    linkGit: "https://github.com/pinheirosdev/Forms-Registro",
   },
   {
     id: 14,
@@ -80,7 +97,7 @@ const Menu = [
     title: "Calculadora Lógica",
     category: "Práticas",
     link: "https://calculadora-logica-web.vercel.app/",
-    linkGit: "https://github.com/p1nheiros/calculadora-logica",
+    linkGit: "https://github.com/pinheirosdev/calculadora-logica",
   },
   {
     id: 15,
@@ -88,7 +105,7 @@ const Menu = [
     title: "Conversor de Tempo",
     category: "Práticas",
     link: "https://programa-de-pratica.vercel.app/",
-    linkGit: "https://github.com/p1nheiros/ConversorDeTempo",
+    linkGit: "https://github.com/pinheirosdev/ConversorDeTempo",
   },
   {
     id: 16,
@@ -96,7 +113,7 @@ const Menu = [
     title: "Verificador de Números Primos",
     category: "Práticas",
     link: "https://numeros-primos.vercel.app/",
-    linkGit: "https://github.com/p1nheiros/numeros-primos",
+    linkGit: "https://github.com/pinheirosdev/numeros-primos",
   },
   {
     id: 17,
@@ -104,7 +121,7 @@ const Menu = [
     title: "Calculadora com Angular e Ionic",
     category: "Práticas",
     link: "https://calculadora-ionic-angular.vercel.app/home",
-    linkGit: "https://github.com/p1nheiros/calculadora-ionic",
+    linkGit: "https://github.com/pinheirosdev/calculadora-ionic",
   },
   {
     id: 18,
@@ -112,7 +129,7 @@ const Menu = [
     title: "Trabalho FullStack",
     category: "Práticas",
     link: "https://trabalhofullstack.vercel.app/",
-    linkGit: "https://github.com/p1nheiros/trabalhofullstack",
+    linkGit: "https://github.com/pinheirosdev/trabalhofullstack",
   },
   {
     id: 111,
@@ -120,7 +137,7 @@ const Menu = [
     title: "Tutorial de API com PHP & Laravel",
     category: "Vídeos",
     link: "https://youtu.be/B1JWzrHdaCI",
-    linkGit: "https://github.com/p1nheiros/Sistema-de-Gerenciamento-de-Tarefas-API",
+    linkGit: "https://github.com/pinheirosdev/Sistema-de-Gerenciamento-de-Tarefas-API",
   },
   ,
   {
@@ -129,7 +146,7 @@ const Menu = [
     title: "Executando API no Postman",
     category: "Vídeos",
     link: "https://youtu.be/V7IgQjuNsrU",
-    linkGit: "https://github.com/p1nheiros/Sistema-de-Gerenciamento-de-Tarefas-API",
+    linkGit: "https://github.com/pinheirosdev/Sistema-de-Gerenciamento-de-Tarefas-API",
   },
   ,
 ];

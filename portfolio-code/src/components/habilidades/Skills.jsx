@@ -59,9 +59,9 @@ const Skills = () => {
         </div>
 
         <div className="line grid">
-          <h3 className="skills__title">DevOps</h3>
+          <h3 className="skills__title">CI/CD</h3>
           {Data.map((val, id) => {
-            if (val.category === "devops") {
+            if (val.category === "cicd") {
               return (
                 <Card
                   key={id}

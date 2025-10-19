@@ -19,7 +19,7 @@ const Data = [
       category: "linguagem",
       icon: "uil-check-circle",
       title: "Typescript",
-      desc: "Básico",
+      desc: "Intermediário",
     },
     {
       id: 4,
@@ -48,14 +48,14 @@ const Data = [
       category: "banco",
       icon: "uil-check-circle",
       title: "Oracle",
-      desc: "Básico",      
+      desc: "Intermediário",      
     },
     {
       id: 14,
       category: "banco",
       icon: "uil-check-circle",
       title: "Mongo DB",
-      desc: "Iniciante",      
+      desc: "Básico",      
     },
     // FRAMEWORKS
     {
@@ -86,29 +86,35 @@ const Data = [
       title: "Tailwind",
       desc: "Básico",
     },
-    // DEVOPS
+    // CI/CD
     {
       id: 19,
-      category: "devops",
+      category: "cicd",
       icon: "uil-check-circle",
       title: "Git",
       desc: "Intermediário Avançado",
     },
     {
       id: 20,
-      category: "devops",
+      category: "cicd",
       icon: "uil-check-circle",
       title: "GitHub",
       desc: "Intermediário Avançado",
     },
     {
       id: 21,
-      category: "devops",
+      category: "cicd",
       icon: "uil-check-circle",
       title: "Azure DevOps",
       desc: "Intermediário",
     },
-
+    {
+      id: 22,
+      category: "cicd",
+      icon: "uil-check-circle",
+      title: "AWS Cloud",
+      desc: "Básico",
+    },
   ];
 
 export default Data

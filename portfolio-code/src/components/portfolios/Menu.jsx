@@ -56,7 +56,7 @@ const Menu = [
     image: Banner5,
     title: "Music Bot",
     category: "Projetos",
-    link: "",
+    link: "https://discord.com/oauth2/authorize?client_id=1417293740632178819&permissions=3213312&integration_type=0&scope=bot+applications.commands",
     linkGit: "https://github.com/pinheirosdev/pinhas-musicbot",
   },
   {
@@ -64,7 +64,7 @@ const Menu = [
     image: Banner6,
     title: "Projeto David Silveira",
     category: "Projetos",
-    link: "",
+    link: "https://davidsilveira.netlify.app/",
     linkGit: "https://github.com/pinheirosdev/davidsilveira",
   },
   {
